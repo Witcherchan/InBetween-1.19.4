@@ -36,7 +36,7 @@ public class InBetween
 
         MinecraftForge.EVENT_BUS.register(this);
 
-
+        modEventBus.addListener(this::addCreative);
 
     }
 
@@ -49,7 +49,6 @@ public class InBetween
     {
         if(event.getTab() == CreativeModeTabs.INGREDIENTS)
         {
-            event.accept(ModItems.NICOL_INGOT);
             event.accept(ModItems.RAW_NICOL);
         }
     }
