@@ -19,7 +19,8 @@ import org.slf4j.Logger;
 @Mod(InBetween.MOD_ID)
 public class InBetween
 {
-    //DICK AND BALLS
+
+    //VERY IMPORTANT COMMENT
     public static final String MOD_ID = "inbetween";
     private static final Logger LOGGER = LogUtils.getLogger();
 
