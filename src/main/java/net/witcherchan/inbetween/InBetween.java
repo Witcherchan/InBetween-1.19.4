@@ -55,10 +55,12 @@ public class InBetween
             event.accept(ModItems.RAW_NICOL);
             event.accept(ModItems.NICOL_INGOT);
 
-            event.accept(ModItems.RAW_BLART);
-            event.accept(ModItems.BLART_BAR);
-            event.accept(ModBlocks.BLART_BLOCK);
-            event.accept(ModBlocks.RAW_BLART_BLOCK);
+            event.accept(ModItems.FRAGANITE);
+            event.accept(ModBlocks.FRAGANITE_BLOCK);
+            event.accept(ModBlocks.FRAGANITE_ORE);
+
+            event.accept(ModBlocks.SHADOW_STONE);
+            event.accept(ModBlocks.SHADOW_COBBLESTONE);
 
         }
     }

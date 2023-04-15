@@ -3,11 +3,13 @@
   "item.inbetween.raw_nicol": "Raw Nicol",
   "item.inbetween.nicol_ingot": "Nicol Ingot",
 
-  "item.inbetween.raw_blart": "Raw Blart",
-  "item.inbetween.blart_bar": "Blart Bar",
-  "block.inbetween.raw_blart_block": "Raw Blart Block",
-  "block.inbetween.blart_block": "Blart Block",
+  "item.inbetween.fraganite": "Fraganite",
+  "block.inbetween.fraganite_ore": "Fraganite Ore",
+  "block.inbetween.fraganite_block": "Fraganite Block",
 
-  "creativemodetab:inbetween_tab": "Inbetween Tab"
+  "block.inbetween.shadow_stone": "Shadow Stone",
+  "block.inbetween.shadow_cobblestone": "Shadow Cobblestone",
+
+  "creativemodetab:inbetween_tab": "Inbetween"
 
 }

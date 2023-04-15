@@ -19,16 +19,24 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, InBetween.MOD_ID);
 
-    public static final RegistryObject<Block> BLART_BLOCK = registerBlock("blart_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(8f)
+    public static final RegistryObject<Block> FRAGANITE_ORE = registerBlock("fraganite_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f)
                     .requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> FRAGANITE_BLOCK = registerBlock("fraganite_block",
+                () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                        .strength(4f)
+                        .requiresCorrectToolForDrops()));
 
-    public static final RegistryObject<Block> RAW_BLART_BLOCK = registerBlock("raw_blart_block",
+    public static final RegistryObject<Block> SHADOW_STONE = registerBlock("shadow_stone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f)
                     .requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> SHADOW_COBBLESTONE = registerBlock("shadow_cobblestone",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f)
+                    .requiresCorrectToolForDrops()));
 
     private static <T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {

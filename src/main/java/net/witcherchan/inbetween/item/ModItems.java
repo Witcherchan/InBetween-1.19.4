@@ -16,9 +16,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> NICOL_INGOT = ITEMS.register("nicol_ingot",
                 () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> RAW_BLART = ITEMS.register("raw_blart",
-                () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> BLART_BAR = ITEMS.register("blart_bar",
+    public static final RegistryObject<Item> FRAGANITE = ITEMS.register("fraganite",
                 () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus)

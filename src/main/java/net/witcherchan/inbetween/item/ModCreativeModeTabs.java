@@ -18,7 +18,7 @@ public class ModCreativeModeTabs {
     public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event)
     {
         INBETWEEN_TAB = event.registerCreativeModeTab(new ResourceLocation(InBetween.MOD_ID, "inbetween_tab"),
-                builder -> builder.icon(() -> new ItemStack(ModItems.RAW_BLART.get()))
+                builder -> builder.icon(() -> new ItemStack(ModItems.FRAGANITE.get()))
                         .title(Component.translatable("creativemodetab:inbetween_tab")));
     }
 
