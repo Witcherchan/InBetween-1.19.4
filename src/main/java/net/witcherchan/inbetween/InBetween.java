@@ -64,6 +64,10 @@ public class InBetween
 
             event.accept(ModBlocks.SHADOW_STONE);
             event.accept(ModBlocks.SHADOW_COBBLESTONE);
+            event.accept(ModBlocks.SMOOTH_SHADOW_STONE);
+            event.accept(ModBlocks.CRACKED_SHADOW_STONE_BRICKS);
+            event.accept(ModBlocks.SHADOW_STONE_BRICKS);
+            event.accept(ModBlocks.CHISELED_SHADOW_STONE_BRICKS);
 
         }
     }

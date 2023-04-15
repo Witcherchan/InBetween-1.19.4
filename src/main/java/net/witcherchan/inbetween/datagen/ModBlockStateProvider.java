@@ -18,11 +18,17 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.FRAGANITE_BLOCK);
         blockWithItem(ModBlocks.FRAGANITE_ORE);
+
         blockWithItem(ModBlocks.NICOL_BLOCK);
         blockWithItem(ModBlocks.RAW_NICOL_BLOCK);
         blockWithItem(ModBlocks.NICOL_ORE);
+
         blockWithItem(ModBlocks.SHADOW_COBBLESTONE);
         blockWithItem(ModBlocks.SHADOW_STONE);
+        blockWithItem(ModBlocks.SHADOW_STONE_BRICKS);
+        blockWithItem(ModBlocks.CRACKED_SHADOW_STONE_BRICKS);
+        blockWithItem(ModBlocks.CHISELED_SHADOW_STONE_BRICKS);
+        blockWithItem(ModBlocks.SMOOTH_SHADOW_STONE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject){

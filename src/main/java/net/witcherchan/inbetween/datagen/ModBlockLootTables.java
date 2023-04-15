@@ -22,6 +22,10 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         dropSelf(ModBlocks.NICOL_BLOCK.get());
         dropSelf(ModBlocks.FRAGANITE_BLOCK.get());
         dropSelf(ModBlocks.SHADOW_COBBLESTONE.get());
+        dropSelf(ModBlocks.SMOOTH_SHADOW_STONE.get());
+        dropSelf(ModBlocks.CHISELED_SHADOW_STONE_BRICKS.get());
+        dropSelf(ModBlocks.CRACKED_SHADOW_STONE_BRICKS.get());
+        dropSelf(ModBlocks.SHADOW_STONE_BRICKS.get());
 
         add(ModBlocks.FRAGANITE_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.FRAGANITE_ORE.get(), ModItems.FRAGANITE.get()));

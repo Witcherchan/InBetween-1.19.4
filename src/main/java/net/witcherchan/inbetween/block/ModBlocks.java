@@ -50,6 +50,26 @@ public class ModBlocks {
                     .strength(6f)
                     .requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> SMOOTH_SHADOW_STONE = registerBlock("smooth_shadow_stone",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f)
+                    .requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> SHADOW_STONE_BRICKS = registerBlock("shadow_stone_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f)
+                    .requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> CRACKED_SHADOW_STONE_BRICKS = registerBlock("cracked_shadow_stone_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f)
+                    .requiresCorrectToolForDrops()));
+
+    public static final RegistryObject<Block> CHISELED_SHADOW_STONE_BRICKS = registerBlock("chiseled_shadow_stone_bricks",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f)
+                    .requiresCorrectToolForDrops()));
+
     private static <T extends  Block> RegistryObject<T> registerBlock(String name, Supplier<T> block)
     {
         RegistryObject<T> toReturn = BLOCKS.register(name,block);

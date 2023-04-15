@@ -12,6 +12,10 @@
 
   "block.inbetween.shadow_stone": "Shadow Stone",
   "block.inbetween.shadow_cobblestone": "Shadow Cobblestone",
+  "block.inbetween.shadow_stone_bricks": "Shadow Stone Bricks",
+  "block.inbetween.cracked_shadow_stone_bricks": "Cracked Shadow Stone Bricks",
+  "block.inbetween.smooth_shadow_stone": "Smooth Shadow Stone",
+  "block.inbetween.chiseled_shadow_stone_bricks": "Chiseled Shadow Stone Bricks",
 
   "creativemodetab:inbetween_tab": "Inbetween"
 
