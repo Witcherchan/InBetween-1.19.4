@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "nicol",
+  "ingredients": [
+    {
+      "item": "inbetween:nicol_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "inbetween:nicol_ingot"
+  }
+}

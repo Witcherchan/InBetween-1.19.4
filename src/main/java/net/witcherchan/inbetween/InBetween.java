@@ -54,6 +54,9 @@ public class InBetween
         {
             event.accept(ModItems.RAW_NICOL);
             event.accept(ModItems.NICOL_INGOT);
+            event.accept(ModBlocks.NICOL_BLOCK);
+            event.accept(ModBlocks.RAW_NICOL_BLOCK);
+            event.accept(ModBlocks.NICOL_ORE);
 
             event.accept(ModItems.FRAGANITE);
             event.accept(ModBlocks.FRAGANITE_BLOCK);

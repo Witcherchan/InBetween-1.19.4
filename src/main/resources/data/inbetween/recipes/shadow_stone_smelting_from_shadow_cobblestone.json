@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.4,
+  "group": "shadow_stone",
+  "ingredient": {
+    "item": "inbetween:shadow_cobblestone"
+  },
+  "result": "inbetween:shadow_stone"
+}

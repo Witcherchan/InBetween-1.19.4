@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values":
+    [
+      "inbetween:shadow_stone",
+      "inbetween:shadow_cobblestone",
+      "inbetween:fraganite_ore",
+      "inbetween:fraganite_block",
+      "inbetween:nicol_ore",
+      "inbetween:nicol_block",
+      "inbetween:raw_nicol_block"
+    ]
+}

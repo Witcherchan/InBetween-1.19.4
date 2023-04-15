@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "fraganite",
+  "ingredients": [
+    {
+      "item": "inbetween:fraganite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "inbetween:fraganite"
+  }
+}

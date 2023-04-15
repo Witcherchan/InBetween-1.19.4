@@ -21,12 +21,24 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> FRAGANITE_ORE = registerBlock("fraganite_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(4f)
+                    .strength(2f)
                     .requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> FRAGANITE_BLOCK = registerBlock("fraganite_block",
                 () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                         .strength(4f)
                         .requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> NICOL_ORE = registerBlock("nicol_ore",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f)
+                    .requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> RAW_NICOL_BLOCK = registerBlock("raw_nicol_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4f)
+                    .requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> NICOL_BLOCK = registerBlock("nicol_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f)
+                    .requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> SHADOW_STONE = registerBlock("shadow_stone",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)

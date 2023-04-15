@@ -2,6 +2,9 @@
 
   "item.inbetween.raw_nicol": "Raw Nicol",
   "item.inbetween.nicol_ingot": "Nicol Ingot",
+  "block.inbetween.raw_nicol_block": "Raw Nicol Block",
+  "block.inbetween.nicol_block": "Nicol Block",
+  "block.inbetween.nicol_ore": "Nicol Ore",
 
   "item.inbetween.fraganite": "Fraganite",
   "block.inbetween.fraganite_ore": "Fraganite Ore",
